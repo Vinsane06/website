@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Will You Go to Prom?</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Will you go to prom with me?</h1>
+        <div class="options">
+            <div class="option" id="yes" onclick="showResponse('Yes')">Yes</div>
+            <div class="option" id="no" onclick="moveOption()">No</div>
+        </div>
+        <div id="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
